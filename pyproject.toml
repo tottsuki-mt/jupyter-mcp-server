@@ -27,6 +27,8 @@ dependencies = [
     "pydantic",
     "uvicorn",
     "click",
+    "fastapi>=0.110",
+    "httpx>=0.27",
 ]
 
 [project.optional-dependencies]
