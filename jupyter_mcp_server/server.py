@@ -88,7 +88,7 @@ async def connect(request: Request):
     """Connect to a room and a runtime from the Jupyter MCP server."""
 
     data = await request.json()
-    logger.info("Connecting to room_runtime:", data)
+    logger.info("Connecting to room_runtime: %s", data)
 
     room_runtime = RoomRuntime(**data)
 
